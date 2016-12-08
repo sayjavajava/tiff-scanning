@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>TIFF Scanning </h1>
+    <p class="lead">
+        TIFF Scanning is web based mvc application that used for scan images into different formats. 
+        after scanning a image you can upload it one server and then you can reterive it from server 
+        through search . 
+    </p>
+    <p>
+        @Html.ActionLink("Try This app>>", "Scan", "Home", null, new { @class = "btn btn-primary btn-lg" })
+    </p>
+</div>
